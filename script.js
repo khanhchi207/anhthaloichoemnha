@@ -31,6 +31,10 @@ function handleYesClick() {
   buttonsContainer.classList.add("hidden");
   changeImage("yes");
 }
+yesBtn.addEventListener("click", () => {
+  question.innerHTML = tôiy 🥺<br>dỗiiii x1 tỷ";
+  gif.src =
+    "https://media.giphy.com/media/2weSkZg9hvQW5Zv2fk/giphy.gif";
 
 function resizeYesButton() {
   const computedStyle = window.getComputedStyle(yesButton);
@@ -55,7 +59,7 @@ function generateMessage(noCount) {
 }
 
 function changeImage(image) {
-  catImg.src = `img/cat-${image}.jpg`;
+  gif.src = https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDg2N2JxMnc0bmVhcHRlcmx0anoydW9jaTF5Z3FvNXJvOTJ0YzltdyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/KztT2c4u8mYYUiMKdJ/giphy.gif;
 }
 
 function updateNoButtonText() {
